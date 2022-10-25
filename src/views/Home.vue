@@ -23,6 +23,10 @@ import Posts from "@/components/posts/Posts";
 
 export default {
   name: "Home",
+  metaInfo: {
+    title: "Home",
+    titleTemplate: "%s | KMBlog by Med Reda Kamal",
+  },
   components: {
     Search,
     Alert,

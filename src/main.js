@@ -1,5 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
+import VueMeta from "vue-meta";
 import router from "./router";
 import "animate.css";
 import "./styles/tailwind.css";
@@ -25,6 +26,7 @@ library.add(faArrowAltCircleLeft);
 library.add(faLinkedin);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
+Vue.use(VueMeta);
 
 Vue.config.productionTip = false;
 

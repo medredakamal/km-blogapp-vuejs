@@ -31,6 +31,7 @@ import getPostsData from "../data/posts.json";
 
 export default {
   name: "Post",
+
   components: {
     Loader,
   },
@@ -49,6 +50,12 @@ export default {
       }.bind(this),
       2000
     );
+  },
+  metaInfo() {
+    return {
+      title: this.post.title,
+      titleTemplate: "%s | KMBlog by Med Reda Kamal",
+    };
   },
 };
 </script>
