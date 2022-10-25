@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+
+body {
+  font-family: "Inria Sans", sans-serif;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+
+nav {
+  -webkit-transition: max-height 0.7s;
+  -moz-transition: max-height 0.7s;
+  -ms-transition: max-height 0.7s;
+  -o-transition: max-height 0.7s;
+  transition: max-height 0.7s;
+  overflow: hidden;
+  max-height: 60px;
+}
+
+.nav-active {
+  max-height: 300px;
+}
+
+.km__post__description {
+  width: 360px;
+}
+.km__post__description::after {
+  display: inline-block;
+  content: "...";
+  margin-left: -3.75px;
+}
+
+.km__blog__posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, max-content));
+  justify-content: center;
+  padding: initial;
+}
+
+.km__post__item {
+  list-style-type: none;
+  padding: 5px;
+  margin: 0 8px 16px 8px;
+}
+
+.km__post__content .km__post__title {
+  min-height: 60px;
+}
+
+/* Loader */
+.km__loader {
+  z-index: 99;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* Med Reda Kamal Button */
+.km__medredakamal img {
+  width: 33px;
+  -o-object-fit: contain;
+  object-fit: contain;
+  border: 2px solid #fff;
+  border-radius: 100%;
+  margin: 0 0 0 6px;
+}

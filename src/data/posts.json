@@ -1,0 +1,40 @@
+[{
+        "id": "1",
+        "title": "Laravel: Asynchronous and concurrent HTTP requests",
+        "description": "When reaching an API, sending outgoing HTTP requests can take time. If you are using the Laravel HTTP client, you can implement asynchronous requests to significantly improve performance.",
+        "category": "Coding",
+        "img": "assets/blog/1.jpg",
+        "tags": ["coding", "laravel", "http"]
+
+    },
+    {
+        "id": "2",
+        "title": "Introducing the New JSX Transform",
+        "description": "When reaching an API, sending outgoing HTTP requests can take time. If you are using the Laravel HTTP client, you can implement asynchronous requests to significantly improve performance.",
+        "category": "Coding",
+        "img": "assets/blog/2.jpg",
+        "tags": ["coding", "laravel", "http"]
+
+    }, {
+        "id": "3",
+        "title": "Laravel: Asynchronous and concurrent HTTP requests",
+        "description": "When reaching an API, sending outgoing HTTP requests can take time. If you are using the Laravel HTTP client, you can implement asynchronous requests to significantly improve performance.",
+        "category": "Coding",
+        "img": "assets/blog/3.jpg",
+        "tags": ["coding", "laravel", "http"]
+    }, {
+        "id": "4",
+        "title": "Laravel: Asynchronous and concurrent HTTP requests",
+        "description": "When reaching an API, sending outgoing HTTP requests can take time. If you are using the Laravel HTTP client, you can implement asynchronous requests to significantly improve performance.",
+        "category": "Coding",
+        "img": "assets/blog/3.jpg",
+        "tags": ["coding", "laravel", "http"]
+    }, {
+        "id": "5",
+        "title": "Laravel: Asynchronous and concurrent HTTP requests",
+        "description": "When reaching an API, sending outgoing HTTP requests can take time. If you are using the Laravel HTTP client, you can implement asynchronous requests to significantly improve performance.",
+        "category": "Coding",
+        "img": "assets/blog/3.jpg",
+        "tags": ["coding", "laravel", "http"]
+    }
+]
