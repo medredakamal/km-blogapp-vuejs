@@ -5,6 +5,7 @@ So it's not a problem if you want to use an API and connect it with axios...!
 
 - Search Functionality Added
 - Read More will redirect you to the article route
+- Adding Meta (dynamic/static)
 
 ↪ [Live Demo](https://km-blogapp-vuejs.web.app)
 
